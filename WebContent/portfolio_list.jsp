@@ -55,7 +55,8 @@
 				<td>${portfolio.dataCount}</td>
 				<td>${portfolio.leader}</td>			
 				<td>${portfolio.memberCount}</td>			
-				<td><input type="button" value="삭제" data-no="${portfolio.no}"/></td>			
+				<td><input type="button" value="삭제" data-no="${portfolio.no}"/></td>	
+						
 			</tr>
 		</c:forEach>
 		</tbody>
